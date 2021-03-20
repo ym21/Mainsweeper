@@ -2,3 +2,12 @@ body {
 	font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",
 		sans-serif;
 }
+
+#app {
+	border-style: solid;
+	border-width: 1px;
+}
+
+#cells {
+	display: grid;
+}
