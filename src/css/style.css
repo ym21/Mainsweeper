@@ -3,11 +3,19 @@ body {
 		sans-serif;
 }
 
-#app {
-	border-style: solid;
+#main {
+	display: grid;
+	grid-template-columns: repeat(10, 20px);
 	border-width: 1px;
+	border-style: sodid;
 }
 
-#cells {
-	display: grid;
+.cell {
+	width: 20px;
+	height: 20px;
+	border-style: outset;
+	border-width: 2px;
+	border-color: lightgray;
+	box-sizing: border-box;
+	background-color: lightgray;
 }
