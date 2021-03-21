@@ -35,6 +35,7 @@ class Game {
         this.bombLabel.innerHTML =
             "💣" + ("   " + (this.game.bombs - this.game.flagCnt)).slice(-3);
         this.mainDisp.innerHTML = "";
+        this.resetButton.innerHTML = "^^";
         this.cells = [];
         for (let y = 0; y < this.game.rows; y++) {
             this.cells[y] = [];
@@ -97,6 +98,7 @@ class Game {
                     }
                 }
             }
+            this.resetButton.innerHTML = "><";
         }
     }
 }
