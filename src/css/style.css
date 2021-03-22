@@ -1,77 +1,77 @@
 body {
-    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic,
-        "游ゴシック体", sans-serif;
-    display: flex;
-    justify-content: center;
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体",
+    sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
 #app {
-    border: 1px solid;
-    border-radius: 5px;
+  border: 1px solid;
+  border-radius: 5px;
 }
 .conteiner {
-    display: flex;
+  display: flex;
 }
 
 .flex-box {
-    flex: 2;
-    display: flex;
-    justify-content: center;
+  flex: 2;
+  display: flex;
+  justify-content: center;
 }
 
 #reset-button {
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 5px;
-    width: 20px;
-    height: 20px;
-    margin: auto;
-    line-height: 20px;
-    text-align: center;
-    font-size: 12px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  line-height: 20px;
+  text-align: center;
+  font-size: 12px;
 }
 #time {
-    width: 100%;
+  width: 100%;
 }
 #bomb {
-    width: 100%;
-    text-align: right;
+  width: 100%;
+  text-align: right;
 }
 
 #game {
-    margin: 0px 5px 5px 5px;
-    display: grid;
-    grid-template-columns: repeat(10, 20px);
-    border-width: 1px;
-    border-style: solid;
-    border-color: gray;
+  margin: 0px 5px 5px 5px;
+  display: grid;
+  grid-template-columns: repeat(10, 20px);
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
 }
 
 .cell {
-    width: 20px;
-    height: 20px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: gray;
-    box-sizing: border-box;
-    background-color: lightgreen;
-    line-height: 20px;
-    text-align: center;
-    font-size: 14px;
+  width: 20px;
+  height: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  box-sizing: border-box;
+  background-color: lightgreen;
+  line-height: 20px;
+  text-align: center;
+  font-size: 14px;
 }
 
 .open {
-    background-color: #e5b670;
-    border-color: #976434;
-    font-size: 16px;
+  background-color: #e5b670;
+  border-color: #976434;
+  font-size: 16px;
 }
 
 .bomb {
-    background-color: tomato;
-    font-size: 14px;
+  background-color: tomato;
+  font-size: 14px;
 }
 
 .miss {
-    background-color: lightpink;
-    color: red;
+  background-color: lightpink;
+  color: red;
 }
